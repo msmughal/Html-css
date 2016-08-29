@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travels & Tours</title>
+    <style>
+        body{
+            background-color: dimgrey;
+            text-align: center;
+            }
+            /*********ELEMENTS MAIN DIV******/
+            #big-main{
+                background-color: snow;
+                border: 5px double black;
+                width: 90%;
+                margin: 0 auto;
+                height:auto;
+               
+            }
+        /*********logo*********/
+        .logo img{
+            width:15%;
+            height:150px;
+        }
+        
+        /**********NAVIGATION*********/
+        .nav-bar{
+            border-top: 3px solid #1f9100;
+            border-bottom: 2px solid #1f9100;
+            width:50%;
+            margin:0px auto;
+            
+        }
+        .nav-bar li{
+                    list-style: none;
+                    display: inline;
+                    margin:auto 10% auto 0.9%;
+                    border:0px solid black;
+                     transition: 1s;
+                     font-family:Haettenschweiler, sans-serif;
+                     font-size:1.3em;
+                     
+                      }
+          .nav-bar li a:hover{
+                  
+                     text-shadow: 0px 0px 1px green;
+                     text-decoration: none;
+                     box-shadow: inset 1px 1px 18px darkgreen;
+                     border:2px solid #fda500;;
+                     border-radius: 13px 13px 13px 13px;
+                     padding: 7px;
+          }            
+         /*********CONTENTS-IMAGE-SIZE*********/
+         .content-1 img{
+             width:100%;
+             height:190px;
+             
+         }
+         
+         .content-2 img{
+              width:100%;
+             height:190px;
+         }
+         
+         .content-3 img{
+              width:100%;
+             height:190px;
+         }
+         .content-4 img{
+              width:100%;
+             height:190px;
+         }
+         .content-5 img{
+              width:100%;
+             height:190px;
+         }
+         
+         /**********CONTENTS*********/  
+      
+        
+        .content-1{
+            
+            width:50%;
+            margin:0px auto;
+        
+        }
+        
+          .content-2{
+         
+            width:50%;
+            margin:0px auto;
+            
+        }
+        
+         .content-3{
+         
+            width:50%;
+            margin:0px auto;
+            
+        }
+         .content-4{
+         
+            width:50%;
+            margin:0px auto;
+            
+        }
+        .content-5{
+         
+            width:50%;
+            margin:0px auto;
+            
+        }
+        
+        .sub-content-1{
+               border: 4px solid black;
+               width: 60%;
+               margin: 0 auto;
+        }
+        
+        .sub-content-2{
+               border: 4px double black;
+               width: 60%;
+               margin: 0 auto;
+        }
+        
+         .sub-content-3{
+               border: 4px dotted black;
+               width: 60%;
+               margin: 0 auto;
+        }
+         .sub-content-4{
+               border: 4px dashed black;
+               width: 60%;
+               margin: 0 auto;
+        }
+        
+        .sub-content-5{
+               border: 3px outset black;
+               box-shadow: green 2px 2px 2px;
+               width: 60%;
+               margin: 0 auto;
+        }
+        
+        
+        
+        
+       /*********SHOW CONTENTS ON CLICK*********/
+     
+ 
+      #content-1{
+           display:none;
+       } 
+       #content-2{
+           display:none;
+       }
+       #content-3{
+           display:none;
+       }
+       #content-4{
+           display:none;
+       }
+        #content-5{
+           display:none;
+       }
+       #main .content-1:target{
+           display:block;
+           
+       }
+       
+        #main .content-2:target{
+           display:block;
+       }
+        #main .content-3:target{
+           display:block;
+       }
+       #main .content-4:target{
+           display:block;
+       }
+        #main .content-5:target{
+           display:block;
+       }
+       
+       
+          </style>
+        
+</head>
+<body>
+    <div id="big-main">
+    
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+     
+         <div id="main">
+         <!---- NAVIGATION ---->
+         <div class="nav-bar" id="navs">
+             <ul>
+                 <li><a href="#content-1" target="";>Home</a></li>
+                 <li><a href="#content-2"target="">Services</a></li>
+                 <li><a href="#content-3"target="">Tours</a></li>
+                 <li><a href="#content-4"target="">About</a></li>
+                 <li><a href="#content-5"target="">Contact</a></li>
+                 </ul>
+                 </div>
+         <!--- NAVIGATION CLOSE --->
+        
+        
+        <!--- CONTENTS ---->
+        
+         
+        
+        <div class="content-1" id="content-1">
+            </br>
+            <img src="travel.jpg" alt="travel"/>
+            
+            <p> Travel is the movement of people between relatively distant geographical locations, 
+                and can involve travel by foot, bicycle, automobile, train, boat, airplane, or other means, with or without luggage,
+                 and can be one way or round trip. [1][2] Travel can also include relatively short .</p></br>
+                 <div class="sub-content-1">
+                     <p>The World is the only private residential community-at-sea where its Residents may travel the globe without ever leaving home.</p>
+                 </div>
+                 </br>
+        </div>
+        
+        <div class="content-2" id="content-2">
+            </br>
+            <img src="services.jpg" alt="travel"/>
+            
+            <p> Travel is the movement of people between relatively distant geographical locations, 
+                and can involve travel by foot, bicycle, automobile, train, boat, airplane, or other means, with or without luggage,
+                 and can be one way or round trip. [1][2] Travel can also include relatively short .</p></br>
+                 <div class="sub-content-2">
+                     <p>The World is the only private residential community-at-sea where its Residents may travel the globe without ever leaving home.</p>
+                     </div></br>
+        </div>
+                     
+                     <div class="content-3" id="content-3">
+            </br>
+            <img src="Tour.jpg" alt="travel"/>
+            
+            <p> Travel is the movement of people between relatively distant geographical locations, 
+                and can involve travel by foot, bicycle, automobile, train, boat, airplane, or other means, with or without luggage,
+                 and can be one way or round trip. [1][2] Travel can also include relatively short .</p></br>
+                 <div class="sub-content-3">
+                     <p>The World is the only private residential community-at-sea where its Residents may travel the globe without ever leaving home.</p>
+                     </div></br>
+                     </div>
+        <div class="content-4" id="content-4">
+            </br>
+            <img src="about.jpg" alt="travel"/>
+            
+            <p> Travel is the movement of people between relatively distant geographical locations, 
+                and can involve travel by foot, bicycle, automobile, train, boat, airplane, or other means, with or without luggage,
+                 and can be one way or round trip. [1][2] Travel can also include relatively short .</p></br>
+                 <div class="sub-content-4">
+                     <p>The World is the only private residential community-at-sea where its Residents may travel the globe without ever leaving home.</p>
+                     </div></br>
+        </div>
+        
+         <div class="content-5" id="content-5">
+            </br>
+            <img src="Contact.jpg" alt="travel"/>
+            
+            <p> Travel is the movement of people between relatively distant geographical locations, 
+                and can involve travel by foot, bicycle, automobile, train, boat, airplane, or other means, with or without luggage,
+                 and can be one way or round trip. [1][2] Travel can also include relatively short .</p></br>
+                 <div class="sub-content-5">
+                     <p>The World is the only private residential community-at-sea where its Residents may travel the globe without ever leaving home.</p>
+                     </div></br>
+        </div>
+        
+        </div>
+    </div>
+       
+        
+</body>
+</html>
